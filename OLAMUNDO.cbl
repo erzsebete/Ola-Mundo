@@ -34,5 +34,7 @@
            DISPLAY "Ou:" AT 1603 FOREGROUND-COLOR 4 HIGHLIGHT.
            DISPLAY "OLA MUNDO" AT 1803.
            ACCEPT R AT 2001.
+           ********** Olá ainda não sei programar em COBOL *************
+           ********** Este é um teste **********************************
        STOP RUN.
        END PROGRAM HELLOWORLD.
