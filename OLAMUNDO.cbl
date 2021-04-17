@@ -4,9 +4,6 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. HELLOWORLD.
-       DATA DIVISION.
-       WORKING-STORAGE SECTION.
-        77 R PIC A VALUE SPACE.
        PROCEDURE DIVISION.
            DISPLAY "0" AT 0227 FOREGROUND-COLOR 3 HIGHLIGHT.
            DISPLAY "0" AT 0326 FOREGROUND-COLOR 3 HIGHLIGHT.
@@ -32,9 +29,7 @@
                        AT 1403 FOREGROUND-COLOR 3 HIGHLIGHT.
 
            DISPLAY "Ou:" AT 1603 FOREGROUND-COLOR 4 HIGHLIGHT.
-           DISPLAY "OLA MUNDO" AT 1803.
-           ACCEPT R AT 2001.
-           ********** Olá ainda não sei programar em COBOL *************
-           ********** Este é um teste **********************************
+           DISPLAY "OL� MUNDO" AT 1803.
+           ACCEPT OMITTED AT 2001.
        STOP RUN.
        END PROGRAM HELLOWORLD.
